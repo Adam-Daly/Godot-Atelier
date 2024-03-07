@@ -24,6 +24,15 @@
 
 /* Header */
 
+header {
+    background-color: #323952;
+    width: 100%;
+}
+
+#header-logo {
+  background-image: url("");
+}
+
 .content-container {
   max-width: 1065px;
   margin-left: auto;
@@ -31,14 +40,8 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
-
-header {
-    background-color: #DC143C;
-}
-
-#header-logo {
-
+  height: 90px;
+  align-items: center;
 }
 
 nav{
@@ -49,11 +52,13 @@ nav ul {
   display: flex; 
   flex-direction: row;
   justify-content: space-evenly;
+  text-align: center;
 }
 
 nav li {
   list-style: none;
   margin-right: 15px;
+  font-size: 20px;
 }
 
 /* Main */
@@ -69,11 +74,16 @@ footer {
 /* Links */
 a {
   text-decoration: none; 
-  color: inherit; /
+  color: inherit;
   border-bottom: 1px solid transparent; 
   transition: border-color 0.3s; 
 }
 
 a:hover {
   border-color: #BA5C56; 
+}
+
+/* text */
+body{
+  color: #ffffff;
 }
