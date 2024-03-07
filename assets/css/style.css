@@ -23,8 +23,37 @@
 
 
 /* Header */
+
+.content-container {
+  max-width: 1065px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 header {
     background-color: #DC143C;
+}
+
+#header-logo {
+
+}
+
+nav{
+  width: 80%;
+}
+
+nav ul {
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 15px;
 }
 
 /* Main */
@@ -35,4 +64,16 @@ main {
 /* Footer */
 footer {
     background-color: #2814dc;
+}
+
+/* Links */
+a {
+  text-decoration: none; 
+  color: inherit; /
+  border-bottom: 1px solid transparent; 
+  transition: border-color 0.3s; 
+}
+
+a:hover {
+  border-color: #BA5C56; 
 }
