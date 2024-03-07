@@ -1,0 +1,22 @@
+/* Style Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Header */
+header {
+    background-color: #DC143C;
+}
+
+/* Main */
+main {
+    background-color: #71dc14;
+}
+
+/* Footer */
+footer {
+    background-color: #2814dc;
+}
