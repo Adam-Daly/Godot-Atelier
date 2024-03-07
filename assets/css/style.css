@@ -30,7 +30,7 @@ header {
 }
 
 #header-logo {
-  background-image: url("");
+  max-width: 225px;
 }
 
 .content-container {
