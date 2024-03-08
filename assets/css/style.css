@@ -39,6 +39,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: flex;
+  justify-content: center;
 }
 
 .flex{
@@ -58,7 +59,7 @@ body {
 }
 
 .flex-space-evenly{
-  justify-content:space-evenly;
+  justify-content: space-evenly;
 }
 
 .flex-end{
