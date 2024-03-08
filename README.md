@@ -1,6 +1,6 @@
 # Godot Atelier Website
 
-Deployed version here: [Godot Atelier](https://github.com/Adam-Daly/Godot-Atelier/commits/main/)
+Deployed version here: [Godot Atelier](https://adam-daly.github.io/Godot-Atelier/)
 
 ![Website Preview](/assets/images/readme/website-preview.png)
 
