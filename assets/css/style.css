@@ -56,6 +56,10 @@ body {
   justify-content: space-between;
 }
 
+.flex-space-evenly{
+  justify-content:space-evenly;
+}
+
 .flex-end{
   justify-content: flex-end;
 }
@@ -220,9 +224,30 @@ nav li {
   background-color: #30728E;
 }
 
-/* Footer */
-footer {
-    background-color: #2814dc;
+#sign-up {
+  background-color: #30728E;
+  width: 100%;
+}
+
+.sign-up-form {
+  width: 650px;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
+
+.sign-up-form label {
+  padding: 10px;
+  width: 50%;
+}
+
+.submit{
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.sign-up-form input {
+  padding: 10px;
+  width: 100%;
 }
 
 /* Links */
