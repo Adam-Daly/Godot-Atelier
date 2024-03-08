@@ -34,11 +34,18 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  align-items: center;
+}
+
+.flex{
+  display: flex;
 }
 
 .flex-row{
   flex-direction: row;
+}
+
+.flex-col{
+  flex-direction: column;
 }
 
 .flex-space-between{
@@ -47,6 +54,10 @@ body {
 
 .flex-end{
   justify-content: flex-end;
+}
+
+.flex-items-center{
+  align-items: center;
 }
 
 .half-width{
@@ -58,6 +69,7 @@ body {
 header {
     background-color: #323952;
     width: 100%;
+    margin-bottom: 15px;
 }
 
 #header-logo {
@@ -93,7 +105,17 @@ nav li {
 }
 
 /* Banner */
+#banner {
+  margin-bottom: 15px;
+}
 
+#banner-img {
+  background-image: url(/assets/images/godot-banner.png);
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+  height: 405px;
+}
 
 /* Footer */
 footer {
@@ -114,4 +136,12 @@ a:hover {
 /* text */
 body{
   color: #ffffff;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
 }
