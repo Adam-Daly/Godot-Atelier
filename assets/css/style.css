@@ -183,7 +183,14 @@ nav li {
 #course-comparison-list {
   font-size: 20px;
   list-style-position: inside;
-  padding: 10px;
+  padding: 15px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#course-comparison-list li::marker {
+  color: #BA5C56;
 }
 
 /* Instructors */
