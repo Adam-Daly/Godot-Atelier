@@ -22,6 +22,37 @@
   }
 
 
+/* Body */
+body {
+  background-color: #40434F;
+}
+
+/* Flex componenents */
+
+.content-container {
+  max-width: 1065px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
+.flex-row{
+  flex-direction: row;
+}
+
+.flex-space-between{
+  justify-content: space-between;
+}
+
+.flex-end{
+  justify-content: flex-end;
+}
+
+.half-width{
+  width: 50%;
+}
+
 /* Header */
 
 header {
@@ -33,15 +64,8 @@ header {
   max-width: 225px;
 }
 
-.content-container {
-  max-width: 1065px;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+.header-height{
   height: 90px;
-  align-items: center;
 }
 
 nav{
@@ -68,10 +92,8 @@ nav li {
   padding: 10px 20px;
 }
 
-/* Main */
-main {
-    background-color: #71dc14;
-}
+/* Banner */
+
 
 /* Footer */
 footer {
