@@ -139,7 +139,7 @@ nav li {
   padding: 15px;
 }
 
-/* features */
+/* Features */
 
 #features {
   margin-bottom: 15px;
@@ -148,6 +148,17 @@ nav li {
 .features-box{
   width: 33.33%;
   width: calc(100%/3);
+}
+
+/* Course */
+
+#course {
+  margin-bottom: 15px;
+}
+
+#course-list{
+  font-size: 20px;
+  list-style-position: inside;
 }
 
 /* Footer */
