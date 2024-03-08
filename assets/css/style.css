@@ -210,6 +210,16 @@ nav li {
   padding: 10px;
 }
 
+/* Sign Up */
+
+#sign-up-eyecatcher{
+  width: 100%;
+  text-align: center;
+  letter-spacing: 10px;
+  padding: 10px;
+  background-color: #30728E;
+}
+
 /* Footer */
 footer {
     background-color: #2814dc;
