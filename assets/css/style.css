@@ -307,6 +307,17 @@ h3 {
 
   nav{
     width: 100%;
+    padding: 20px;
+  }
+  
+  nav .flex-row {
+    flex-direction: row;
+  }
+  
+  nav li {
+    list-style: none;
+    margin-right: 15px;
+    font-size: 12px;
   }
 
   #banner-img {
@@ -352,6 +363,10 @@ h3 {
   .flex-col-gap{
     row-gap: 15px;
     column-gap: 0;
+  }
+
+  .mobile-constrain{
+    width: 75%;
   }
 
 }
