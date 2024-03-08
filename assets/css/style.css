@@ -302,6 +302,14 @@ h2 {
   .clients-height{
     height: auto;
   }
+  
+  #clients .flex-row{
+    flex-direction: row;
+  }
+
+  .clients-logo{
+    width: 25%;
+  }
 
   #course-list{
     font-size: 20px;
