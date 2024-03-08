@@ -299,6 +299,15 @@ h2 {
     width: 100%;
   }
 
+  #banner-img {
+    height: auto;
+  }
+
+  .banner-text {
+    background-color: #24252975;
+    padding: 15px;
+  }
+
   .clients-height{
     height: auto;
   }
