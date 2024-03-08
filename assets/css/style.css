@@ -145,7 +145,10 @@ nav li {
   margin-bottom: 15px;
 }
 
-
+.features-box{
+  width: 33.33%;
+  width: calc(100%/3);
+}
 
 /* Footer */
 footer {
