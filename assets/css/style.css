@@ -60,9 +60,14 @@ body {
   align-items: center;
 }
 
+.flex-col-gap{
+  column-gap: 10px;
+}
+
 .half-width{
   width: 50%;
 }
+
 
 /* Header */
 
@@ -133,6 +138,14 @@ nav li {
   width: 220px;
   padding: 15px;
 }
+
+/* features */
+
+#features {
+  margin-bottom: 15px;
+}
+
+
 
 /* Footer */
 footer {
