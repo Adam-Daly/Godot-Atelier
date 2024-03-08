@@ -176,6 +176,12 @@ nav li {
   margin-bottom: 15px;
 }
 
+#course-comparison-list {
+  font-size: 20px;
+  list-style-position: inside;
+  padding: 10px;
+}
+
 /* Footer */
 footer {
     background-color: #2814dc;
