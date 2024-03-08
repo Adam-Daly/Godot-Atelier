@@ -122,6 +122,7 @@ nav li {
 #clients {
   width: 100%;
   background-color: #242529;
+  margin-bottom: 15px;
 }
 
 .clients-height{
