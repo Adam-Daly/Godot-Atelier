@@ -273,3 +273,40 @@ h1 {
 h2 {
   font-size: 24px;
 }
+
+@media only screen and (max-width: 1100px) {
+  .flex-row{
+    flex-direction: column;
+  }
+
+  .header-height{
+    height: auto;
+  }
+
+  nav{
+    width: 100%;
+  }
+
+  .clients-height{
+    height: auto;
+  }
+
+  #course-list{
+    font-size: 20px;
+    list-style: none;
+    padding: 20px;
+  }
+
+  .features-box{
+    width: 75%;
+    margin-bottom: 10px;
+  }
+
+  .half-width{
+    width: 75%;
+  }
+
+  .instructors-box{
+    width: 75%;
+  }
+}
